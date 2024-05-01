@@ -1,0 +1,10 @@
+eggs, 10
+milk, 2
+cheese, 3
+tomatoes, 5
+cucumber, 5
+apples, 10
+bananas, 7
+watermelon, 2
+melon, 2
+lemon, 5
