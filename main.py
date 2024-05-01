@@ -7,6 +7,15 @@
 def view_shopping_list(file_path):
     pass
 
+def edit_product(file_path):
+    pass
+
+def delete_product(file_path):
+    pass
+
+def add_product(file_path):
+    pass
+
 def main():
     while True:
         print("""
@@ -14,8 +23,19 @@ def main():
         2 - add
         3 - remove
         4 - edit
-        5 - exit""")
+        5 - exit
+        """)
         answer = input("What do you want to do?")
         if answer == "1":
+            view_shopping_list("data.txt")
+        if answer == "2":
+            add_product("data.txt")
+        if answer == "3":
+            delete_product("data.txt")
+        if answer == "4":
+            edit_product("data.txt")
+        if answer == "5":
+            break
+
             
         
